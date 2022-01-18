@@ -1,0 +1,25 @@
+/*
+=====================
+    Icon Card
+=====================
+*/
+
+.icon-card-editor{
+    display: grid;
+    grid-template-areas: 
+    "icon title"
+    "icon content";
+}
+
+.icon-card-editor .icon{
+    grid-area: icon;
+}
+
+.icon-card-editor .title{
+    grid-area: title;
+}
+
+.icon-card-editor .content{
+    grid-area: content;
+}
+
